@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -63,7 +64,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPL-qr-Hkt">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="26"/>
                                 <state key="normal" title="Get weather">
                                     <color key="titleColor" red="0.29568513156022314" green="0.6960516498794157" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -86,7 +87,7 @@
                             <constraint firstItem="rpk-Ew-rvb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="V21-wu-pbs"/>
                             <constraint firstItem="3op-nC-BtS" firstAttribute="top" secondItem="sOd-1e-ngK" secondAttribute="bottom" constant="8" id="aWD-R5-B69"/>
                             <constraint firstItem="fe7-GX-bem" firstAttribute="top" secondItem="3op-nC-BtS" secondAttribute="bottom" constant="8" id="ixK-X6-ZCt"/>
-                            <constraint firstItem="xPL-qr-Hkt" firstAttribute="top" secondItem="TCB-KQ-OCL" secondAttribute="bottom" constant="12" id="lSK-gC-pao"/>
+                            <constraint firstItem="xPL-qr-Hkt" firstAttribute="top" secondItem="TCB-KQ-OCL" secondAttribute="bottom" constant="24" id="lSK-gC-pao"/>
                             <constraint firstItem="sOd-1e-ngK" firstAttribute="top" secondItem="osP-0O-tCT" secondAttribute="bottom" constant="8" id="m0K-t0-fOp"/>
                             <constraint firstItem="xPL-qr-Hkt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p4V-Ge-4nL"/>
                             <constraint firstItem="rpk-Ew-rvb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="usI-BI-qdW"/>
@@ -102,22 +103,22 @@
                                 <exclude reference="xPL-qr-Hkt"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="2ya-Hj-vjW"/>
-                                <exclude reference="V21-wu-pbs"/>
-                                <exclude reference="usI-BI-qdW"/>
-                                <exclude reference="Ffi-eJ-P7w"/>
-                                <exclude reference="JIE-EV-02b"/>
-                                <exclude reference="9nD-dM-nFd"/>
-                                <exclude reference="m0K-t0-fOp"/>
-                                <exclude reference="6gA-AX-qv9"/>
-                                <exclude reference="ixK-X6-ZCt"/>
-                                <exclude reference="MHd-3L-aki"/>
-                                <exclude reference="aWD-R5-B69"/>
+                                <exclude reference="1J7-YQ-Au0"/>
                                 <exclude reference="KHJ-fQ-jtq"/>
                                 <exclude reference="PZd-fa-UxV"/>
                                 <exclude reference="lSK-gC-pao"/>
                                 <exclude reference="p4V-Ge-4nL"/>
-                                <exclude reference="1J7-YQ-Au0"/>
+                                <exclude reference="6gA-AX-qv9"/>
+                                <exclude reference="ixK-X6-ZCt"/>
+                                <exclude reference="Ffi-eJ-P7w"/>
+                                <exclude reference="JIE-EV-02b"/>
+                                <exclude reference="9nD-dM-nFd"/>
+                                <exclude reference="m0K-t0-fOp"/>
+                                <exclude reference="MHd-3L-aki"/>
+                                <exclude reference="aWD-R5-B69"/>
+                                <exclude reference="2ya-Hj-vjW"/>
+                                <exclude reference="V21-wu-pbs"/>
+                                <exclude reference="usI-BI-qdW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -131,22 +132,22 @@
                                 <include reference="xPL-qr-Hkt"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="2ya-Hj-vjW"/>
-                                <include reference="V21-wu-pbs"/>
-                                <include reference="usI-BI-qdW"/>
-                                <include reference="Ffi-eJ-P7w"/>
-                                <include reference="JIE-EV-02b"/>
-                                <include reference="9nD-dM-nFd"/>
-                                <include reference="m0K-t0-fOp"/>
-                                <include reference="6gA-AX-qv9"/>
-                                <include reference="ixK-X6-ZCt"/>
-                                <include reference="MHd-3L-aki"/>
-                                <include reference="aWD-R5-B69"/>
+                                <include reference="1J7-YQ-Au0"/>
                                 <include reference="KHJ-fQ-jtq"/>
                                 <include reference="PZd-fa-UxV"/>
                                 <include reference="lSK-gC-pao"/>
                                 <include reference="p4V-Ge-4nL"/>
-                                <include reference="1J7-YQ-Au0"/>
+                                <include reference="6gA-AX-qv9"/>
+                                <include reference="ixK-X6-ZCt"/>
+                                <include reference="Ffi-eJ-P7w"/>
+                                <include reference="JIE-EV-02b"/>
+                                <include reference="9nD-dM-nFd"/>
+                                <include reference="m0K-t0-fOp"/>
+                                <include reference="MHd-3L-aki"/>
+                                <include reference="aWD-R5-B69"/>
+                                <include reference="2ya-Hj-vjW"/>
+                                <include reference="V21-wu-pbs"/>
+                                <include reference="usI-BI-qdW"/>
                             </mask>
                         </variation>
                     </view>

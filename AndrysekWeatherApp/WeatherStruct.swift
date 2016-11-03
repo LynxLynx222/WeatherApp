@@ -8,16 +8,16 @@
 
 import Foundation
 
-struct WeatherStruct {
-    let m_name: String
-    let m_temp: Double
-    let m_desc: String
-    let m_icon: String
+class WeatherStruct {
+    let name: String
+    let temp: Double
+    let desc: String
+    let icon: String
     
-    init(name: String, temp: Double, desc: String, icon: String){
-        m_name = name
-        m_temp = temp
-        m_desc = desc
-        m_icon = icon
+    required init(json: JSON){
+        name = json["name"].stringValue
+        temp = json["main"] ["temp"].doubleValue.roundTo(1)
+        desc = json["weather"] [0] ["main"].stringValue
+        icon = json["weather"] [0] ["icon"].stringValue
     }
 }
