@@ -141,12 +141,10 @@
 		0DAA9DAB1C7520A100A725FE /* AndrysekWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				0DC2DDD31DCBAEEB0006952F /* VC */,
+				0DC2DDD21DCBAED50006952F /* JSON */,
+				0DC2DDD41DCBAF8B0006952F /* Extension */,
 				0DAA9DAC1C7520A100A725FE /* AppDelegate.swift */,
-				0DAA9DAE1C7520A200A725FE /* ViewController.swift */,
-				0DA1E6251CB081DA005D1385 /* RestApiManager.swift */,
-				0DA1EBF71CB7128E0056AD5A /* StringUtils.swift */,
-				0DAA9DDA1C753E2C00A725FE /* SwiftyJSON.swift */,
-				0DF278311C821451007BA0AB /* WeatherStruct.swift */,
 				0DAA9DB01C7520A200A725FE /* Main.storyboard */,
 				0DD469381C77FA3F00543EE1 /* Images */,
 				0DAA9DB31C7520A200A725FE /* Assets.xcassets */,
@@ -172,6 +170,32 @@
 				0DAA9DCE1C7520A300A725FE /* Info.plist */,
 			);
 			path = AndrysekWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		0DC2DDD21DCBAED50006952F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				0DAA9DDA1C753E2C00A725FE /* SwiftyJSON.swift */,
+				0DA1E6251CB081DA005D1385 /* RestApiManager.swift */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		0DC2DDD31DCBAEEB0006952F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				0DAA9DAE1C7520A200A725FE /* ViewController.swift */,
+				0DF278311C821451007BA0AB /* WeatherStruct.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		0DC2DDD41DCBAF8B0006952F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0DA1EBF71CB7128E0056AD5A /* StringUtils.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 		0DD469381C77FA3F00543EE1 /* Images */ = {
